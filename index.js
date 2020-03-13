@@ -320,7 +320,7 @@ function getOlderCars(/* code here */) {
  * in the same order as they appear in the original inventory.
 */
 function getGermanCars(inventory) {
-  /* code here */	  let germanCars = [];
+    let germanCars = [];
   for(let i=0; i<inventory.length; i++){
     if(inventory[i].car_make === 'Audi'){
       germanCars.push(inventory[i]);
@@ -351,8 +351,9 @@ function getGermanCars(inventory) {
  *         (1) causes the odometer in the object to be increased by the distance,
  *         (2) returns the updated value of the `odometer`.
 */
-
- 
+function carMaker(/* code here */) {
+  /* code here */
+}
 
 /// ////// END OF CHALLENGE /////////
 /// ////// END OF CHALLENGE /////////
